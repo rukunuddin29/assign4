@@ -6,7 +6,7 @@ function Form4() {
     const navigate = useNavigate();
 
     const handleLaunch = () => {
-      navigate("/dashboard");
+      navigate("/aiagent");
     };
 
   return (
@@ -246,16 +246,18 @@ function Form4() {
       + Add Action
     </button>
   </div>
-  <div className="flex justify-end pt-6">
+  
+</div>
+
+</div>
+<div className="flex justify-end pt-6">
         <button
           onClick={handleLaunch}
-          className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all text-base"
+          className="bg-blue-600 w-[60%] mx-auto text-white font-semibold py-3 px-6 rounded-lg transition-all text-base"
         >
-          🚀 Launch
+         Launch
         </button>
       </div>
-</div>
-</div>
 </div>
 
     </>
