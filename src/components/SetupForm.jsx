@@ -209,8 +209,8 @@ const SetupForm = () => {
 
         {currentStep === 2 && (
           <div className="text-sm text-gray-600">
-            <div className="min-h-screen bg-black flex items-center justify-center p-6">
-              <div className="w-full max-w-md bg-black text-white space-y-6">
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
+              <div className="w-full max-w-md bg-white text-white space-y-6">
                 <div>
                   <label className="block text-gray-400 mb-2">Tone of Communication</label>
                   <select className="w-full p-3 rounded-md bg-white text-black focus:outline-none">
