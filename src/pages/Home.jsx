@@ -1,8 +1,14 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import SetupForm from '../components/SetupForm'
 
 function Home() {
   return (
-    <div>Home</div>
+   <>
+   <Layout>
+    <SetupForm></SetupForm>
+   </Layout>
+   </>
   )
 }
 
